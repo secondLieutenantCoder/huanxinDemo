@@ -1,0 +1,12 @@
+PODS:
+  - HyphenateLite (3.2.3)
+
+DEPENDENCIES:
+  - HyphenateLite
+
+SPEC CHECKSUMS:
+  HyphenateLite: 8d8e7c3c3c6d468feb55cfe643da9a5aa5a94a9c
+
+PODFILE CHECKSUM: d26251296303b034f29130ca60691d13c29ba2ff
+
+COCOAPODS: 1.1.1
