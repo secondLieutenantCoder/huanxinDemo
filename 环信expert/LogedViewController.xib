@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LogedViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XI2-5M-y3H">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="20"/>
+                    <color key="backgroundColor" red="0.72336632010000002" green="0.36038763340000002" blue="0.3098534966" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="bug-Yd-DJq"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ox0-ZW-ldL">
+                    <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aOU-VM-vft">
+                            <rect key="frame" x="8" y="8" width="46" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="46" id="QK5-h7-hpF"/>
+                                <constraint firstAttribute="height" constant="30" id="Zax-ml-6xK"/>
+                            </constraints>
+                            <state key="normal" title="Back"/>
+                            <connections>
+                                <action selector="backAction:" destination="-1" eventType="touchUpInside" id="xEe-DI-QNd"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="aOU-VM-vft" firstAttribute="top" secondItem="ox0-ZW-ldL" secondAttribute="top" constant="8" id="ehb-sd-zDZ"/>
+                        <constraint firstAttribute="height" constant="44" id="uMn-tW-6gL"/>
+                        <constraint firstItem="aOU-VM-vft" firstAttribute="leading" secondItem="ox0-ZW-ldL" secondAttribute="leading" constant="8" id="xXq-hW-LPT"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w8L-VI-04p">
+                    <rect key="frame" x="60" y="547" width="255" height="40"/>
+                    <color key="backgroundColor" red="1" green="0.76592996280000003" blue="0.29358282349999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="LgJ-UP-G5F"/>
+                    </constraints>
+                    <state key="normal" title="cancelBadge"/>
+                    <connections>
+                        <action selector="cancelBadgeAction:" destination="-1" eventType="touchUpInside" id="k4a-7Y-waU"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="w8L-VI-04p" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="60" id="7pY-Cn-wfP"/>
+                <constraint firstItem="XI2-5M-y3H" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="COx-Kr-By5"/>
+                <constraint firstItem="ox0-ZW-ldL" firstAttribute="top" secondItem="XI2-5M-y3H" secondAttribute="bottom" id="VbY-2J-yLq"/>
+                <constraint firstAttribute="trailing" secondItem="w8L-VI-04p" secondAttribute="trailing" constant="60" id="WNk-n0-lgF"/>
+                <constraint firstItem="XI2-5M-y3H" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ceT-kX-jQQ"/>
+                <constraint firstAttribute="trailing" secondItem="ox0-ZW-ldL" secondAttribute="trailing" id="hh2-at-tMO"/>
+                <constraint firstItem="ox0-ZW-ldL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="n0E-Z6-FYW"/>
+                <constraint firstAttribute="trailing" secondItem="XI2-5M-y3H" secondAttribute="trailing" id="nhZ-z4-AJ2"/>
+                <constraint firstAttribute="bottom" secondItem="w8L-VI-04p" secondAttribute="bottom" constant="80" id="yeg-VA-Eoh"/>
+            </constraints>
+            <point key="canvasLocation" x="-40.5" y="49.5"/>
+        </view>
+    </objects>
+</document>
