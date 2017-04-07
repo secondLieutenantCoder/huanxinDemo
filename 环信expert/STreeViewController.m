@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    /// 通过 GitHub写入的消息
 }
 
 - (void)didReceiveMemoryWarning {
