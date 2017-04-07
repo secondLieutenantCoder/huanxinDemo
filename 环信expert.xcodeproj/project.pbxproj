@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A156EED1E9720C100EB263B /* STreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A156EEB1E9720C100EB263B /* STreeViewController.m */; };
+		4A156EEE1E9720C100EB263B /* STreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A156EEC1E9720C100EB263B /* STreeViewController.xib */; };
 		900A678C1E28609A00CB70F6 /* AddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 900A678A1E28609A00CB70F6 /* AddressViewController.m */; };
 		900A678D1E28609A00CB70F6 /* AddressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 900A678B1E28609A00CB70F6 /* AddressViewController.xib */; };
 		900A67911E2873B900CB70F6 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 900A678F1E2873B900CB70F6 /* AddViewController.m */; };
@@ -77,6 +79,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4A156EEA1E9720C100EB263B /* STreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STreeViewController.h; sourceTree = "<group>"; };
+		4A156EEB1E9720C100EB263B /* STreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STreeViewController.m; sourceTree = "<group>"; };
+		4A156EEC1E9720C100EB263B /* STreeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STreeViewController.xib; sourceTree = "<group>"; };
 		900A67891E28609A00CB70F6 /* AddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressViewController.h; sourceTree = "<group>"; };
 		900A678A1E28609A00CB70F6 /* AddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressViewController.m; sourceTree = "<group>"; };
 		900A678B1E28609A00CB70F6 /* AddressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddressViewController.xib; sourceTree = "<group>"; };
@@ -166,6 +171,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A156EE91E97209B00EB263B /* SourcetreeTest */ = {
+			isa = PBXGroup;
+			children = (
+				4A156EEA1E9720C100EB263B /* STreeViewController.h */,
+				4A156EEB1E9720C100EB263B /* STreeViewController.m */,
+				4A156EEC1E9720C100EB263B /* STreeViewController.xib */,
+			);
+			name = SourcetreeTest;
+			sourceTree = "<group>";
+		};
 		900A67861E28602300CB70F6 /* conversion */ = {
 			isa = PBXGroup;
 			children = (
@@ -247,6 +262,7 @@
 		9059D09E1E271FC7001E2483 /* 环信expert */ = {
 			isa = PBXGroup;
 			children = (
+				4A156EE91E97209B00EB263B /* SourcetreeTest */,
 				900A67EB1E28C51A00CB70F6 /* modal */,
 				9059D0ED1E272A59001E2483 /* controller */,
 				9059D0D31E271FF3001E2483 /* 环信 */,
@@ -469,6 +485,7 @@
 				900A679D1E28989C00CB70F6 /* SendTableViewCell.xib in Resources */,
 				9059D0AF1E271FC7001E2483 /* LaunchScreen.storyboard in Resources */,
 				905B2A9A1E277D0900CE5DA7 /* LogedViewController.xib in Resources */,
+				4A156EEE1E9720C100EB263B /* STreeViewController.xib in Resources */,
 				9059D0AC1E271FC7001E2483 /* Assets.xcassets in Resources */,
 				900A67A21E289DB200CB70F6 /* ReceiveCell.xib in Resources */,
 				9059D0AA1E271FC7001E2483 /* Main.storyboard in Resources */,
@@ -548,6 +565,7 @@
 				900A67EE1E28C53E00CB70F6 /* CurrentUser.m in Sources */,
 				9059D0A71E271FC7001E2483 /* ViewController.m in Sources */,
 				9059D0A41E271FC7001E2483 /* AppDelegate.m in Sources */,
+				4A156EED1E9720C100EB263B /* STreeViewController.m in Sources */,
 				900A67911E2873B900CB70F6 /* AddViewController.m in Sources */,
 				900A67A11E289DB200CB70F6 /* ReceiveCell.m in Sources */,
 				900A679C1E28989C00CB70F6 /* SendTableViewCell.m in Sources */,
