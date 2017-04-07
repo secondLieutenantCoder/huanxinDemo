@@ -18,11 +18,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-<<<<<<< HEAD
     /// 测试sourceTree
-=======
+
     /// 通过 GitHub写入的消息
->>>>>>> 9fe32289c34ecea454cb8e5c2639e32522cd98dc
+
 }
 
 - (void)didReceiveMemoryWarning {
