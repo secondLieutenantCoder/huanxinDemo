@@ -21,7 +21,7 @@
     EMOptions *options = [EMOptions optionsWithAppkey:@"wwmessage#wwgethuanxin"];
 //    options.apnsCertName
     [[EMClient sharedClient] initializeSDKWithOptions:options];
-    
+    // HUAN XIN DEMO ---------== 
     return YES;
 }
 
